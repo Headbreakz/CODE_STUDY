@@ -50,3 +50,21 @@ FROM  - WHERE - GROUP BY - HAVING - SELECT - ORDER BY
 6. SELECT
    * ALIAS
      * SELECT A*B AS C FROM *   #A와B를 곱한 결과가 C라는 새로운 별명
+
+* 시간 차이
+  * DATEDIFF (시간, 시간)
+* CASE 문
+  * CASE
+    * WHEN 조건1 THEN 값 1
+    * WHEN 조건 2 THEN 값2
+    * ELSE 값3 
+    * END
+* JOIN
+  * JOIN
+  * LEFT JOIN
+  * RIGHT JOIN
+  * FROM 테이블이 LEFT
+* DATE_FORMAT
+  * 형식에는 `%Y`(4자리 연도), `%y`(2자리 연도), `%m`(월), `%d`(일), `%H`(24시간), `%h`(12시간), `%i`, `%s`
+  * DATE_FORMAT (DATETIME , '%Y %y%m%d%h')
+
